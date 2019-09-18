@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+button {
+    background: blue;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
