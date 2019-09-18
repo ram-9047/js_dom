@@ -11,6 +11,20 @@
       <h1>Document Object Model</h1>
     <script>
       // your code goes here
+      var newP = document.createElement("p")
+      newP.innerText = "hello javascript"
+      newP.innerHTML= "I love <strong>Javascript</strong>"
+      document.body.append(newP)
+
+      
+
+      var unorderedList = document.createElement("ul")
+      var list = document.createElement("a")
+      list.innerHTML = "<li>Buy groceries</li> <li> Feed the cat</li> <li> Do laundry</li>"
+
+      document.body.append(list)
+      document.body.append(unorderedList)
+      
     </script>
   </body>
 </html>
