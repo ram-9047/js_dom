@@ -12,5 +12,18 @@
       <li>Favorites: <span id="favorites"></span></li>
       <li>Hometown: <span id="hometown"></span></li>
     </ul>
+
+    <script>
+      document.querySelector("body").style.fontFamily = "Arial, sans-serif"
+      
+      document.getElementById("nickname").innerText = "ram"
+      document.getElementById("favorites").innerText = "dota"
+      document.getElementById("hometown").innerText = "nowhere"
+
+      var list = document.querySelectorAll("li")
+      list.forEach(element => { element.className = "listitem"});
+      list.forEach(element => {element.className = "listitem"})
+
+    </script>
   </body>
 </html>
